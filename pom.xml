@@ -22,9 +22,9 @@
     	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 	<reporting>
-	    <plugins>
-		 <plugins>
-   <plugin>
+   <plugins>
+    <plugins>
+    <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
         <configuration>

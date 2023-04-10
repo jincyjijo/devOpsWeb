@@ -20,6 +20,7 @@
     	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 	<reporting>
+	  <build>
 	    <plugins>
 	        <plugin>
 	            <groupId>org.apache.maven.plugins</groupId>
@@ -31,6 +32,7 @@
 		   </configuration>
 	        </plugin>
 	    </plugins>
+	  </build>
 	</reporting>
     <build>
         <finalName>devOpsWeb</finalName>

@@ -40,6 +40,8 @@
                 <version>${maven.jetty.plugin.version}</version>
                 <configuration>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
+		     <source>1.8</source>
+                     <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
